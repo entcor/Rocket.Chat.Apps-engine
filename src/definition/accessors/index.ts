@@ -16,6 +16,7 @@ import { ILivechatRead } from './ILivechatRead';
 import { ILivechatUpdater } from './ILivechatUpdater';
 import { ILogEntry, LogMessageSeverity } from './ILogEntry';
 import { ILogger } from './ILogger';
+import { IMail } from './IMail';
 import { IMessageBuilder } from './IMessageBuilder';
 import { IMessageExtender } from './IMessageExtender';
 import { IMessageRead } from './IMessageRead';
@@ -44,7 +45,6 @@ import { IUploadCreator } from './IUploadCreator';
 import { IUploadRead } from './IUploadRead';
 import { IUserBuilder } from './IUserBuilder';
 import { IUserRead } from './IUserRead';
-import { IMail } from './IMail';
 
 export {
     HttpStatusCode,

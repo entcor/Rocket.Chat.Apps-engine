@@ -1,5 +1,6 @@
-import { IAppAccessors, IEnvironmentRead, IHttp, IRead } from '../../definition/accessors';
+import { IAppAccessors, IEnvironmentRead, IHttp, IMail, IRead } from '../../definition/accessors';
 import { IApiEndpointMetadata } from '../../definition/api';
+import { Mail } from '../accessors/Mail';
 import { AppManager } from '../AppManager';
 import { AppAccessorManager } from '../managers/AppAccessorManager';
 import { AppApiManager } from '../managers/AppApiManager';
@@ -23,6 +24,10 @@ export class AppAccessors implements IAppAccessors {
 
     public get http(): IHttp {
         return this.accessorManager.getHttp(this.appId);
+    }
+
+    public get mail(): IMail {
+        return new Mail();
     }
 
     public get providedApiEndpoints(): Array<IApiEndpointMetadata> {

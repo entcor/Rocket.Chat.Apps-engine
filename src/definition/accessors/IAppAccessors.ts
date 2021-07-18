@@ -1,4 +1,4 @@
-import { IEnvironmentRead, IHttp, IRead } from '../../definition/accessors';
+import { IEnvironmentRead, IHttp, IMail, IRead } from '../../definition/accessors';
 import { IApiEndpointMetadata } from '../api';
 
 export interface IAppAccessors {
