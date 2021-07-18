@@ -44,6 +44,7 @@ import { IUploadCreator } from './IUploadCreator';
 import { IUploadRead } from './IUploadRead';
 import { IUserBuilder } from './IUserBuilder';
 import { IUserRead } from './IUserRead';
+import { IMail } from './IMail';
 
 export {
     HttpStatusCode,
@@ -100,4 +101,5 @@ export {
     IApiExtend,
     ISchedulerModify,
     ISchedulerExtend,
+    IMail,
 };

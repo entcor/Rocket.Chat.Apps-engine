@@ -5,5 +5,6 @@ export interface IAppAccessors {
     readonly environmentReader: IEnvironmentRead;
     readonly reader: IRead;
     readonly http: IHttp;
+    readonly mail: IMail;
     readonly providedApiEndpoints: Array<IApiEndpointMetadata>;
 }
